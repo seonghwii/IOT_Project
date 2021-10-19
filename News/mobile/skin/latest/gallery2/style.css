@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 최근게시물 스킨 (latest) */
+.lt {position:relative;padding:15px 10px ;}
+.lt #gall_ul {margin:10px 0 0;padding:0;list-style:none}
+.lt #gall_ul:after {display:block;visibility:hidden;clear:both;content:""}
+.lt .gall_li {float:left;;width:50%;padding:5px}
+.lt .gall_li_wr{background:#fff;position:relative;}
+.lt .gall_li_chk{display:inline-block;padding:5px;position:absolute;top:0;left:0}
+.lt .gall_li:nth-child(2n+1) {clear:both}
+.lt .gall_li .gall_img img{width:100%;height:auto}
+.lt .gall_li .gall_img .no-img{display:block;background:#ddd;text-align:center;padding:30% 0}
+.lt .gall_li_wr{background:#fff;position:relative;}
+.lt .gall_text_href {padding:10px;display:block}
+.lt .gall_info{padding:5px 0 0;margin:10px 0 0 ;color: #666;border-top:1px solid #eee;}
+.lt .gall_info:after {display:block;visibility:hidden;clear:both;content:""} 
+.lt .gall_info strong{display:inline-block;margin-right:3px}
+.lt .gall_li_tit{display:block;margin:5px 0;font-weight:bold}
+.lt .date{float:right;color:#666;font-style:italic}
